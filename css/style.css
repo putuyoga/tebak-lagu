@@ -1,0 +1,261 @@
+/*
+	LEPMIS 1.0
+	by : I Putu Yoga Permana
+*/
+
+body, html {
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #494949;
+}
+
+/*-----------------------
+	FORM STYLE
+-------------------------*/
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #494949;
+}
+
+#search {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #cbcbcb;
+}
+
+input, select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #cbcbcb;
+}
+
+input:focus, select:focus {
+	border: 1px solid #000000;
+}
+
+input[type="file"] {
+	padding: 0px;
+	border: 0;
+}
+
+#left p {
+	margin: 10px;
+}
+
+#left h3 {
+	margin: 10px 10px 10px 10px;
+	border-bottom: 1px solid #494949;
+	color: #c4c4c4;
+}
+
+#header {
+	margin: 0px 0px 0px 0px;
+}
+
+/*-------------------
+	TABLE
+---------------------*/
+table {
+	width: 100%;
+	border: 0;
+}
+
+td, tr, th{
+	padding: 10px;
+	color: #797979;
+	font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+
+table.lists {	
+	background: #ffffff;
+	border-collapse: collapse;
+}
+
+tr {
+	margin-right: 20px;
+	border-bottom: 1px solid #cbcbcb;
+}
+th {
+	font-size: 17px;
+	color: #252525;
+	font-weight: bold;
+	border-bottom: 2px solid #cbcbcb;
+}
+
+#wrap {
+	height: 100%;
+}
+.list {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.list li {
+	margin-left: 15px;
+	padding-left: 15px;
+	background-image: url(../images/bullet_abu.png);
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	background-position: 0 .6em;
+	text-decoration: none;
+	line-height: 18px;
+}
+
+.list li:hover {
+	background-image: url(../images/bullet_red.png);
+}
+
+.list a {
+	color: #c4c4c4;
+	text-decoration: none;
+}
+
+.list a:hover {
+	color: #ffffff;
+}
+
+.button {
+	color: #e8e8e8;
+	background: #232323;
+	padding: 10px;
+	cursor: hand;
+	border: 0;
+}
+
+.button:hover {
+	background: #ea2f2f;
+}
+
+
+.button a {
+	color: #ffffff;
+}
+
+.buttonDisabled {
+	cursor: auto;
+   background: #b5b5b5;
+}
+
+.buttonDisabled:hover {
+	background: #b5b5b5;
+}
+
+.small {
+	padding: 5px;
+}
+
+.list_button {
+	color: #ffffff;
+	background: #505050;
+	text-align: center;
+}
+
+.box {
+	background: #ffffff;
+}
+
+.box p {
+	text-align: center;
+	padding: 10px;
+}
+
+#form_tambah {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#loadingDiv {
+	text-align: center;
+	vertical-align: middle;
+}
+
+input.small_input {
+	padding: 4px;
+	
+	/* reset dulu */
+	width: auto;
+	min-width: 0;
+}
+
+.full_besar {
+	font-size: 25px;
+	padding: 20px;
+	width: 100%;
+}
+
+#tebak_container {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.sel_klasemen {
+	width: 400px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+	border-bottom: 3px solid #232323;
+	padding: 10px;
+}
+
+.sel_klasemen small {
+	font-size: 15px;
+}
+
+.sel_klasemen_user {
+	width: 400px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+	border-bottom: 3px solid #ff2c2c;
+	padding: 10px;
+}
+
+.sel_klasemen_user small {
+	font-size: 15px;
+}
+
+#menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #e8e8e8;
+	background: #232323;
+}
+
+#menu .gambar {
+	width: 100%;
+	height: 100%;
+}
+
+#menu img {
+	padding: 5px;
+	width: 40px;
+	height: 40px;
+}
+
+.judul {
+	color: #e8e8e8;
+	background: #232323;
+	font-family: Helvetica;
+	height: 300px;
+}
+
+.judul h1 {
+	padding: 25px;
+}
+
+#input_tebak {
+	font-size: 20px;
+	text-align: center;
+}
+.progress { width:100%; padding: 1px; }
+.bar { background-color: #B4F5B4; width:0%; height:20px; }
+.percent { text-align: center; display: none;}
