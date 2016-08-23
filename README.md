@@ -26,6 +26,14 @@ __Why you create this?__
 __Can i take this code?__
 > Of course, this code is public-domain now
 
+# Usage
+1. Make sure you have PHP, Apache, MySQL. Look at [this](#tools--framework)
+2. Clone this repository to your web server directory. 
+3. Import `tebaklagu.sql` to your newly database. 
+4. Make change URL `$config['base_url']	= 'http://localhost/tebak-lagu/';` at `\application\config\config.php`.
+5. Modify database credential, can be found on `\application\config\database.php`.
+6. Login with username `putuyoga` and password `12345` to login as administrator.
+
 ## Tools & Framework:
 
 - PHP >= 5.1.6
